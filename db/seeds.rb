@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+MarsEstate.destroy_all
+
+MarsEstate.create(price: 13.37, title: "Phobos Fields")
+MarsEstate.create(price: 42.42, title: "Deimos Divide")
