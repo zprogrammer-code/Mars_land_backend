@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2020_02_04_185443) do
   create_table "mars_estates", force: :cascade do |t|
     t.float "price"
     t.string "title"
+    t.string "img"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
