@@ -1,0 +1,2 @@
+class UserMarsEstatesController < ApplicationController
+end
